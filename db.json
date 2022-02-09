@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "ody Actualizado",
+      "empresa": "CCO",
+      "email": "odychance@hotmail.com",
+      "telefono": "+51997972384",
+      "notas": "quiero platica",
+      "id": 1
+    },
+    {
+      "nombre": "Jose nuevo",
+      "empresa": "plataa",
+      "email": "odychance@hotmail.com",
+      "telefono": "+51997972384",
+      "notas": "quiero plata",
+      "id": 3
+    },
+    {
+      "nombre": "Mario",
+      "empresa": "CarToday",
+      "email": "damaso_88_27@hotmail.com",
+      "telefono": "+51997972384",
+      "notas": "Carpinteria",
+      "id": 7
+    },
+    {
+      "nombre": "Jaime Chacao actualizado",
+      "empresa": "Comida internet",
+      "email": "damaso8888@hotmail.com",
+      "telefono": "12317824",
+      "notas": "Comida buffete",
+      "id": 8
+    }
+  ]
+}
