@@ -1,6 +1,7 @@
 import { useEffect, useState }from 'react'
 import { useParams} from 'react-router-dom';
 import Formulario from '../componentes/Formulario';
+import { backendapi } from '../constants';
 
 
 const EditarCliente = () => {
@@ -13,7 +14,7 @@ const EditarCliente = () => {
   useEffect( () => {
       const obtenerClienteAPI = async () => {
           try {
-              const url= `http://localhost:4000/clientes/${id}`
+              const url= `${import.meta.env.VITE_API_URL}/${id}`
               const respuesta = await fetch(url)
               const resultado = await respuesta.json()
               setCliente(resultado)
